@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -Wall -Wextra -O3 -march=native   CMakeFiles/gspgraph.dir/src/SPandOP.cpp.o CMakeFiles/gspgraph.dir/src/gsp.cpp.o CMakeFiles/gspgraph.dir/src/main.cpp.o  -o gspgraph 

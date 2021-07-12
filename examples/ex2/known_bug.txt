@@ -1,0 +1,10 @@
+There is a known bug in the way that parallel compositions are created.
+Sometimes, one of the sequences in paired upside down.  
+The source of one is matched with the tail of the other and vice versa.
+To see how I know that it is happening uncomment the lines marked by #DEGUG_PARALLEL
+in the tree.c file.  It will at time output that the sources and tails don't match.
+
+In the end this occasionaly means that when combinning the biconnected components 
+the source and sink no longer match what the run function set up.  
+
+An example of this is the 2SP.txt file.
